@@ -28,12 +28,17 @@
     "@storybook/addon-essentials": "^7.0.7",
     "@storybook/addon-interactions": "^7.0.7",
     "@storybook/addon-links": "^7.0.7",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/addon-styling": "^1.0.5",
     "@storybook/blocks": "^7.0.7",
     "@storybook/nextjs": "^7.0.7",
     "@storybook/react": "^7.0.7",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "css-loader": "^6.7.3",
     "eslint-plugin-storybook": "^0.6.11",
     "storybook": "^7.0.7",
-    "tailwind-styled-components": "^2.2.0"
+    "style-loader": "^3.3.2",
+    "tailwind-styled-components": "^2.2.0",
+    "tsconfig-paths-webpack-plugin": "^4.0.1"
   }
 }
