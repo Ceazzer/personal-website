@@ -1,33 +1,5 @@
 import type { StorybookConfig } from "@storybook/nextjs";
 import path from "path";
-import TsconfigPathsPlugin from 'tsconfig-paths-webpack-plugin';
-
-
-// const config: StorybookConfig = {
-//   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
-//   addons: [
-//     "@storybook/addon-links",
-//     "@storybook/addon-essentials",
-//     "@storybook/addon-interactions",
-//     {
-//       name: '@storybook/addon-styling',
-//       options: {
-//         postCss: true,
-//       },
-//     },
-//   ],
-//   core: {
-//     builder: '@storybook/builder-webpack5'
-//   },
-//   framework: {
-//     name: "@storybook/nextjs",
-//     options: {},
-//   },
-//   docs: {
-//     autodocs: "tag",
-//   },
-//   staticDir: [ {from: "../public/", to: ""}]
-// };
 
 
 const config = {
@@ -35,19 +7,7 @@ const config = {
   staticDirs: ['../public'],
   addons: [
     '@storybook/addon-links',
-    '@storybook/addon-essentials',
-    {
-      /**
-       * NOTE: fix Storybook issue with PostCSS@8
-       * @see https://github.com/storybookjs/storybook/issues/12668#issuecomment-773958085
-       */
-      name: '@storybook/addon-postcss',
-      options: {
-        postcssLoaderOptions: {
-          implementation: require('postcss'),
-        },
-      },
-    },
+    '@storybook/addon-essentials'
   ],
   framework: {
         name: "@storybook/nextjs",

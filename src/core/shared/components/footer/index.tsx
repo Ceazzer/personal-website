@@ -1,7 +1,22 @@
-import { StyledFooterContainer } from "./styles";
+import { StyledCopyRightcontainer, StyledFooterContainer, StyledSocialMediaContainer } from "./styles";
 
 export function Footer() {
     return (
-        <StyledFooterContainer />
+        <StyledFooterContainer>
+            <StyledSocialMediaContainer>
+                <div>
+                    SocialMedia
+                </div>
+                <div>
+                    SocialMedia
+                </div>
+                <div>
+                    SocialMedia
+                </div>
+            </StyledSocialMediaContainer>
+            <StyledCopyRightcontainer>
+                © 2023 All rights reserved.
+            </StyledCopyRightcontainer>
+        </StyledFooterContainer>
     );
 }

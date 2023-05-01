@@ -1,9 +1,8 @@
 import tw from "tailwind-styled-components";
 
 export const StyledNavButton = tw.div`
-    mx-2
     capitalize
-    text-white
+    text-gray-300
     text-sm
     font-bold
     cursor-pointer
