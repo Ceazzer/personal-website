@@ -7,7 +7,6 @@ export const StyledFooterContainer = tw.div`
     h-24
     justify-between
     items-center
-    bg-[#212529]
     text-gray-300
     px-10
     md:rounded-b-lg

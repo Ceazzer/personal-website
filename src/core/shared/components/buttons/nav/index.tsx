@@ -1,9 +1,9 @@
 import { StyledNavButton } from "./styles";
 
-export function NavButton() {
+export function NavButton({label}) {
     return (
         <StyledNavButton>
-            NavButton
+            {label}
         </StyledNavButton>
     );
 }

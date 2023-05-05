@@ -16,4 +16,5 @@ export const StyledNavButton = tw.div`
     hover:border-current
     w-fit
     select-none
+    mx-2
 `;

@@ -20,8 +20,9 @@ export const StyledApplicationContainer = tw.div`
     flex
     flex-col
     w-full
-    bg-gray-600
-    md:w-11/12
+    bg-[#222]
+    text-gray-300
+    md:max-w-[1200px]
     md:rounded
 `;
 

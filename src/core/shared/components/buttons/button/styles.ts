@@ -14,9 +14,10 @@ export const StyledButtonContainer = tw.div`
     border-blue-600
     rounded-3xl
     cursor-pointer
-    text-white
     hover:bg-blue-600
     transition
     duration-500
     ease-in-out
+    shadow-md
+    shadow-gray-900
 `;

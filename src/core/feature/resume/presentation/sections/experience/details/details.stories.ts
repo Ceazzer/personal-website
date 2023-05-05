@@ -1,16 +1,20 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { NavButton } from '.';
+import { Details } from '.';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
-const meta: Meta<typeof NavButton> = {
-  title: 'Cor/Shared/Buttons/NavButton',
-  component: NavButton,
+const meta: Meta<typeof Details> = {
+  title: 'Cor/Feature/Sections/Experience/Details',
+  component: Details,
   tags: ['autodocs'],
-  argTypes: {},
+  argTypes: {
+    backgroundColor: {
+      control: 'color',
+    },
+  },
 };
 
 export default meta;
-type Story = StoryObj<typeof NavButton>;
+type Story = StoryObj<typeof Details>;
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Primary: Story = {
