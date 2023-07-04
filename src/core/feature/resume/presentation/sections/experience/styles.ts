@@ -9,6 +9,7 @@ export const StyledExperienceContainer = tw.div`
     min-h-[80px]
     items-center
     justify-start
+    px-[30px]
 `;
 
 export const StyledDetailsContainer = tw.div`

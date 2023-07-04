@@ -6,11 +6,7 @@ const meta: Meta<typeof Details> = {
   title: 'Cor/Feature/Sections/Experience/Details',
   component: Details,
   tags: ['autodocs'],
-  argTypes: {
-    backgroundColor: {
-      control: 'color',
-    },
-  },
+  argTypes: {},
 };
 
 export default meta;

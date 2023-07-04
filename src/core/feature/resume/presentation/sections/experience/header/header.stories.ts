@@ -6,11 +6,7 @@ const meta: Meta<typeof Header> = {
   title: 'Cor/Feature/Sections/Experience/Header',
   component: Header,
   tags: ['autodocs'],
-  argTypes: {
-    backgroundColor: {
-      control: 'color',
-    },
-  },
+  argTypes: {},
 };
 
 export default meta;

@@ -6,11 +6,7 @@ const meta: Meta<typeof ProfileSummarySection> = {
   title: 'Cor/Feature/Sections/ProfileSummarySection',
   component: ProfileSummarySection,
   tags: ['autodocs'],
-  argTypes: {
-    backgroundColor: {
-      control: 'color',
-    },
-  },
+  argTypes: {},
 };
 
 export default meta;

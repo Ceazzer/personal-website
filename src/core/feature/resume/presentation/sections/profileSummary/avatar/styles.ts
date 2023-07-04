@@ -13,6 +13,7 @@ export const StyledAvatarContainer = tw.div`
     ring-gray-500
     pt-4
     overflow-clip
+    shadow-[0_0_20px_22px_rgba(20,20,20,1)]
     md:hidden
 `;
 
@@ -30,4 +31,5 @@ export const StyledAvatarContainer2 = tw.div`
     pt-4
     overflow-clip
     md:flex
+    shadow-[0_0_20px_22px_rgba(20,20,20,1)]
 `;

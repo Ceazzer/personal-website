@@ -6,11 +6,7 @@ const meta: Meta<typeof Experience> = {
   title: 'Cor/Feature/Sections/Experience',
   component: Experience,
   tags: ['autodocs'],
-  argTypes: {
-    backgroundColor: {
-      control: 'color',
-    },
-  },
+  argTypes: {},
 };
 
 export default meta;

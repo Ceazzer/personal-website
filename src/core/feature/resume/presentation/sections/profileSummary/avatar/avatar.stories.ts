@@ -6,11 +6,7 @@ const meta: Meta<typeof Avatar> = {
   title: 'Cor/Feature/Sections/ProfileSummarySection/Avatar',
   component: Avatar,
   tags: ['autodocs'],
-  argTypes: {
-    backgroundColor: {
-      control: 'color',
-    },
-  },
+  argTypes: {},
 };
 
 export default meta;
