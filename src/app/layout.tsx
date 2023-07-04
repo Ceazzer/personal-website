@@ -1,4 +1,3 @@
-import { BackgroundLayout } from '@/core/shared/components/layouts/background'
 import './globals.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -26,9 +25,7 @@ function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <FeatureProvider>
-          <BackgroundLayout>
             {children}
-          </BackgroundLayout>
         </FeatureProvider>
       </body>
     </html>
