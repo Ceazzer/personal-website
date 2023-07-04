@@ -1,12 +1,23 @@
+import { Item, StyledPageContainer, StyledPageContent } from "./styles"
+
 export function HomeTemplate() {
     return (
-        <div>
-        <h1>Home</h1>
-        </div>
+        <StyledPageContainer>
+            <StyledPageContent>
+            <Item $primary="left-0">Test 1</Item>
+            <Item $primary="right-0">Test 2</Item>
+            </StyledPageContent>
+        </StyledPageContainer>
     )
 }
 
-HomeTemplate.displayName = 'HomeTemplate'
+HomeTemplate.Nav = function() {
+    return (
+        <StyledPageContent>
+            
+        </StyledPageContent>
+    )
+}
 
 
 export default HomeTemplate
