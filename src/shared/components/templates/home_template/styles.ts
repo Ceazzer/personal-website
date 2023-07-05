@@ -22,13 +22,17 @@ export const StyledPageContent = tw.div`
     md:bottom-0
 `;
 
-export const Item = tw.span<{$primary: string}>`
+interface IStyledPageItemProps {
+    $position: 'top' | 'left' | 'right' | 'bottom';
+}
+
+export const Item = tw.span<IStyledPageItemProps>`
     relative    
     flex
     text-black
     md:absolute
-    ${(p) => (p.$primary)}
-    transform
-    transition-all
-    duration-500
+    ${p => p.$position === 'top' ? `md:top-[45px]` : ``}
+    ${p => p.$position === 'right' ? `md:right-[45px] md:top-1/2` : ``}
+    ${p => p.$position === 'left' ? `md:left-[45px] md:top-1/2` : ``}
+    ${p => p.$position === 'bottom' ? `md:bottom-[45px]` : ``}
 `;
