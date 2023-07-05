@@ -1,10 +1,9 @@
-import { Item, StyledPageContainer, StyledPageContent } from "./styles"
+import { StyledPageContainer, StyledPageContent } from "./styles"
 
 interface IHomeTemplateProps {
     children: React.ReactNode
-
 }
-export function HomeTemplate(props: IHomeTemplateProps) {
+export default function HomeTemplate(props: IHomeTemplateProps) {
     return (
         <StyledPageContainer>
             {props.children}
@@ -25,4 +24,3 @@ HomeTemplate.Nav = function(props: INavProps) {
 }
 
 
-export default HomeTemplate
