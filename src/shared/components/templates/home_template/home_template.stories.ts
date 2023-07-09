@@ -16,3 +16,11 @@ export const Primary: Story = {
   args: {},
 };
 
+export const WithSidebar: Story = {
+  args: {}
+};
+
+export const WithSidebarAndContent: Story = {
+  args: {}
+};
+

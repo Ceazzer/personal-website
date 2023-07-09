@@ -1,26 +1,40 @@
-import { StyledPageContainer, StyledPageContent } from "./styles"
+import { HomeTemplateContainer } from "./styles";
 
 interface IHomeTemplateProps {
-    children: React.ReactNode
+    children: React.ReactNode // TODO: change to support limited types
 }
 export default function HomeTemplate(props: IHomeTemplateProps) {
     return (
-        <StyledPageContainer>
-            {props.children}
-        </StyledPageContainer>
-    )
+        <HomeTemplateContainer>
+            test
+        </HomeTemplateContainer>
+    );
 }
 
-interface INavProps {
-    children: React.ReactNode
+interface IHomeTemplateSidebarProps {
+    children: React.ReactNode // TODO: change to support limited types
 }
 
-HomeTemplate.Nav = function(props: INavProps) {
+HomeTemplate.Sidebar = function HomeTemplateSidebar(props: IHomeTemplateSidebarProps) {
     return (
-        <StyledPageContent>
-            {props.children}
-        </StyledPageContent>
-    )
+        <HomeTemplateSidebar>
+            
+        </HomeTemplateSidebar>
+    );
+
+
+}
+
+interface IHomeTemplateContentProps {
+    children: React.ReactNode // TODO: change to support limited types
+}
+
+HomeTemplate.Content = function HomeTemplateContent(props: IHomeTemplateContentProps) {
+    return (
+        <HomeTemplateContent>
+
+        </HomeTemplateContent>
+    );
 }
 
 
