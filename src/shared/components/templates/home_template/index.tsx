@@ -7,7 +7,6 @@ export function HomeTemplate(props: IHomeTemplateProps) {
     return (
         <HomeTemplateContainer>
             {props.children}
-            test
         </HomeTemplateContainer>
     );
 }
